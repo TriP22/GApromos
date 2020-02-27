@@ -13,164 +13,176 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-4.3.1/dist/css/bootstrap.min.css">
+
 
     <title>Hello, world!</title>
   </head>
   <body>
 
     <!-- Top Bar -->
-    <div class="row th-header p-3 shadow">
+    <div class="th-header shadow">
       <div class="container">
         <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-5">
-            <img class="th-header-img img-fluid" src="GlacialLogo.png" alt="">
+          <div class="col-md-1 col-12"></div>
+          <div class="col-md-4 col-5 my-3 py-1">
+            <div class="th-header-img" style="background-image: url(img/GlacialLogo.png);"></div>
           </div>
-          <div class="col-md-5 my-auto">
-            <div class="col-md-12 d-flex justify-content-end">
-            <span class="th-header-text">DECADES BIGGEST OFFER</span> 
-            </div>
-            <div class="col-md-12 d-flex justify-content-end">
-            <span class="th-header-text-2">for PRE-BOOKINGS</span> 
-            </div>
+          <div class="col-md-1 col-1 px-0"></div>
+          <div class="col-md-6 col-6 py-3 my-auto">
+            <span class="th-header-text th-mont-medium">DECADES BIGGEST OFFER</span>
+            <span class="d-block th-header-text-2 th-mont-medium">FOR PRE-BOOKINGS</span>
           </div>
-          <div class="col-md-1"></div>
         </div>
-      </div>      
+      </div>
     </div>
     <!-- //Top Bar -->
+    
 
     <!-- Image Section -->
-    <div class="th-body-img" style="background-image: url(home_landing1.png);">
+    <div class="th-body-img" style="background-image: url(img/background.png);">
       <div class="container">
         <div class="row my-3">
-          <div class="col-md-8"></div>
-          <div class="col-md-3 p-3 shadow th-card">
-            <p class="col-md-12 th-text-offer text-center m-0">BOOK YOUR OFFER</p>
-            <input class="col-md-12 th-form" type="text" placeholder="Full Name">
-            <p class="col-md-12 px-0 m-0 py-1"><b style="font-size: 12px;">Full Name</b></p>
-            <input class="col-md-12 th-form" type="text" placeholder="Full Name">
-            <p class="col-md-12 px-0 m-0 py-1"><b style="font-size: 12px;">Email Address</b></p>
-            <input class="col-md-12 th-form" type="text" placeholder="Email Address">
-            <p class="col-md-12 px-0 m-0 py-1"><b style="font-size: 12px;">Mobile Number</b></p>
-            <input class="col-md-12 th-form"  type="text" placeholder="Mobile Number">
-            <p class="col-md-12 px-0 m-0 py-1"><b style="font-size: 12px;">Tour dates</b></p>
-            <input class="col-md-12 th-form" type="text" placeholder="Tour dates">
-            <div class="col-md-8 px-0">
-              <p class="col-md-12 px-0 m-0 py-1"><b style="font-size: 12px;">Tour Destination</b></p> 
-            </div>
-            <div class="col-md-4 px-1">
-              <p class="col-md-12 px-0 m-0 py-1"><b style="font-size: 12px;">Pkg.Cost</b></p>
-            </div>
-            <div class="p-0 col-md-12">
-              <hr class="th-header-underline m-0">
-            </div>
-            <div class="col-md-9 p-0">
-              <span style="font-size: 14px;">Leh-Ladakh Via manali</span>
-            </div>
-            <div class="col-md-3 p-0">
-              <span style="font-size: 14px;">₹9,999/-</span>
-            </div>
-            <div class="col-md-12 px-0 py-3"> 
-              <p class="m-0 th-text-availoffer text-center p-2">AVAIL YOUR OFFER</P>
-            </div>
-            <div class="row p-3">
-              <div class="col-md-12 m-0 p-0 ">
-                <p class="th-text-special text-center m-0">SPECIAL OFFERS EXPIRES IN...</p>
-              </div>
-              <div class="col-md-4 d-flex justify-content-center ">
-                <div class="row d-flex justify-content-center">
-                  <p class="col-12 text-center th-timer m-0" id="hours"></p>
-                  <p class="col-12 text-center th-12 m-0">HOUR</p>
-                </div>
-              </div>
-              <div class="col-md-4 d-flex justify-content-center ">
-                <div class="row d-flex justify-content-center">
-                  <p class="col-12 text-center th-timer m-0" id="minutes"></p>
-                  <p class="col-12 text-center th-12 m-0">MINUTES</p>
-                </div>
-              </div>
-              <div class="col-md-4 d-flex justify-content-center ">
-                <div class="row d-flex justify-content-center">
-                  <p class="col-12 text-center th-timer m-0" id="seconds"></p>
-                  <p class="col-12 text-center th-12 m-0">SECONDS</p>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-8 col-md-7 my-auto py-5">
+            <div class="th-offer-img" style="background-image: url(img/offer.png);"></div>
           </div>
-          <div class="col-md-1"></div>
+          <div class="col-lg-4 col-md-5 my-auto">
+            <div class="p-3 shadow th-card">
+              <form>
+                <p class="th-text-offer text-center ">BOOK YOUR OFFER</p>
+                <input class="col-md-12 th-form-input mb-3" type="text" placeholder="Full Name">
+                <input class="col-md-12 th-form-input mb-3" type="text" placeholder="Email Address">
+                <input class="col-md-12 th-form-input mb-3" type="tel" placeholder="Mobile Number">
+                <input class="col-md-12 th-form-input mb-3" type="date" placeholder="Tour dates">
+                <input class="col-md-12 th-form-input mb-3" list="cities" name="city" placeholder="Your City">
+                <datalist id="cities">
+                  <option value="Manali">
+                  <option value="Shimla">
+                  <option value="Agra">
+                  <option value="Jaipur">
+                  <option value="Bali">
+                </datalist>
+                <div class="row">
+                  <div class="col-8">
+                    <p class="th-mont-extrabold th-12 mb-0">Tour Destination</p> 
+                  </div>
+                  <div class="col-4">
+                    <p class="th-mont-extrabold th-12 mb-0 text-right">Pkg.Cost</p> 
+                  </div>
+                </div>
+                <hr class="th-header-underline m-0">
+                <div class="row py-2">
+                  <div class="col-8">
+                    <p class="th-mont-light th-12 mb-0">Leh-Ladakh Via manali</p> 
+                  </div>
+                  <div class="col-4">
+                    <p class="th-mont-light th-12 mb-0 text-right">₹9,999/-</p>
+                    <p class="th-mont-light th-12 mb-0 text-right">Per Person</p>
+                  </div>
+                </div>
+                <input class="col-md-12 th-text-availoffer p-2 mb-3" type="submit" value="AVAIL YOUR OFFER">
+              </form>
+
+              <div class="row px-4">
+                <div class="col-md-12 m-0 p-0 ">
+                  <p class="th-text-special text-center">SPECIAL OFFERS EXPIRES IN...</p>
+                </div>
+                <div class="col-4 d-flex justify-content-center ">
+                  <div class="row d-flex justify-content-center">
+                    <p class="col-12 text-center th-timer m-0" id="hours"></p>
+                    <p class="col-12 text-center th-mont-regular th-grey th-12 m-0">HOUR</p>
+                  </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center ">
+                  <div class="row d-flex justify-content-center">
+                    <p class="col-12 text-center th-timer m-0" id="minutes"></p>
+                    <p class="col-12 text-center th-mont-regular th-grey th-12 m-0">MINUTES</p>
+                  </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center ">
+                  <div class="row d-flex justify-content-center">
+                    <p class="col-12 text-center th-timer m-0" id="seconds"></p>
+                    <p class="col-12 text-center th-mont-regular th-grey th-12 m-0">SECONDS</p>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
         </div>
         </div>
     </div>
     <!-- //Image Section -->
 
+
     <!-- Why Glacial -->
     <div class="py-5" style="background-color: #f5f6f6;">
-      <div class="container shadow-sm" style="background-color: #fff;border-radius: 5px;">
-        <div class="row pt-4">
-          <div class="col-md-2">
-            <p class="th-mont-black th-24 mb-0">WHY ONLY</p>
-            <P class="th-mont-bold th-28 mb-0">GLACIAL</P>
+      <div class="container">
+        <div class="shadow p-4" style="background-color: #fff;border-radius: 5px;">
+          <div class="row">
+            <div class="col-md-2 col-4 pr-0 my-auto">
+              <p class="th-text-why mb-0">WHY ONLY</p>
+              <P class="th-text-glacial th-mont-bold th-28 mb-0">GLACIAL</P>
+            </div>
+            <div class="col-md-10 col-8 pl-0">
+              <p class="th-text-we mb-0">We are the No.1 Travel Portal & B2B Partners to all major Hotels & Travel Associates & Agents in Himachal</p>
+            </div>
+            <div class="col-md-12 text-center">
+              <hr class="th-header-underline">
+            </div>
           </div>
-          <div class="col-md-10 ">
-            <p class="th-mont-medium th-28 th-grey-2">We are the No.1 Travel Portal & B2B Partners to all major Hotels & Travel Associates & Agents in Himachal</p>
-          </div>
-          <div class="col-md-12 text-center">
-            <hr class="th-header-underline2">
+          <div class="row">
+            <div class="col-lg-2 col-md-4 col-6">
+              <img class="img-fluid" src="customer1.png" alt="" style="height: 60px;">
+              <p class="m-0 mt-3 th-16 th-bl-dark th-bold">13 LAKHS &</p>
+              <P class="m-0 th-14 th-bl-light">MORE HAPPY</P>
+              <P class=" th-14 th-bl-light">CUSTOMERS</P>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="work.png" alt="" style="height: 60px;">
+              <P class="m-0 pt-3 th-16 th-bl-dark th-bold">24X7 ONLINE</P>
+              <P class="m-0 th-14 th-bl-light">and ONSITE</P>
+              <p class="th-14 th-bl-light">ASSISTANCE</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="location1.png" alt="" style="height: 60px;">
+              <p class="m-0 pt-3 th-16 th-bl-dark th-bold">250+ SPOTS &</p>
+              <P class="m-0 th-14 th-bl-light">DESTINATION</P>
+              <P class="th-14 th-bl-light">& SITE SELECT</P>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <img class="" src="calender1.png" alt="" style="height: 60px;">
+              <p class="m-0 th-16 pt-3 th-bl-dark th-bold">12+ YEARS</p>
+              <P class="m-0 th-14 th-bl-light">OF TOURISM</P>
+              <P class="th-14 th-bl-light">EXPERIENCE</P>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="team.png" alt="" style="height: 60px;">
+              <p class="m-0 pt-3 th-16 th-bl-dark th-bold">120+ TEAMS</p>
+              <P class="m-0 th-14 th-bl-light">OF TRAVEL</P>
+              <P class="th-14 th-bl-light">EXPERTS</P>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src="office.png" alt="" style="height: 60px;">
+              <p class="m-0 pt-3 th-16 th-bl-dark th-bold">15K ft<sup>2</sup> OFFICE</p>
+              <P class="m-0 th-14 th-bl-light">SPACE MANALI</P>
+              <P class="th-14 th-bl-light">DHARMASHALA</P>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-2 justify-content-start">
-            <img class="img-fluid" src="customer1.png" alt="" style="height: 60px;">
-            <p class="m-0 mt-3 th-16 th-bl-dark th-bold">13 LAKHS &</p>
-            <P class="m-0 th-14 th-bl-light">MORE HAPPY</P>
-            <P class=" th-14 th-bl-light">CUSTOMERS</P>
-          </div>
-          <div class="col-md-2 justify-content-start px-0">
-            <img src="work.png" alt="" style="height: 60px;">
-            <P class="m-0 pt-3 th-16 th-bl-dark th-bold">24X7 ONLINE</P>
-            <P class="m-0 th-14 th-bl-light">and ONSITE</P>
-            <p class="th-14 th-bl-light">ASSISTANCE</p>
-          </div>
-          <div class="col-md-2 justify-content-start px-0">
-            <img src="location1.png" alt="" style="height: 60px;">
-            <p class="m-0 pt-3 th-16 th-bl-dark th-bold">250+ SPOTS &</p>
-            <P class="m-0 th-14 th-bl-light">DESTINATION</P>
-            <P class="th-14 th-bl-light">& SITE SELECT</P>
-          </div>
-          <div class="col-md-2 justify-content-start px-0">
-            <img class="" src="calender1.png" alt="" style="height: 60px;">
-            <p class="m-0 th-16 pt-3 th-bl-dark th-bold">12+ YEARS</p>
-            <P class="m-0 th-14 th-bl-light">OF TOURISM</P>
-            <P class="th-14 th-bl-light">EXPERIENCE</P>
-          </div>
-          <div class="col-md-2 justify-content-start px-0">
-            <img src="team.png" alt="" style="height: 60px;">
-            <p class="m-0 pt-3 th-16 th-bl-dark th-bold">120+ TEAMS</p>
-            <P class="m-0 th-14 th-bl-light">OF TRAVEL</P>
-            <P class="th-14 th-bl-light">EXPERTS</P>
-          </div>
-          <div class="col-md-2 justify-content-start px-0">
-            <img src="office.png" alt="" style="height: 60px;">
-            <p class="m-0 pt-3 th-16 th-bl-dark th-bold">15K sq.ft OFFICE</p>
-            <P class="m-0 th-14 th-bl-light">SPACE MANALI</P>
-            <P class="th-14 th-bl-light">DHARMASHALA</P>
-          </div>
-        </div>
+        
       </div>
     </div>
-      
     <!-- //Why Glacial -->
+
 
     <!-- footer -->
     <div class="th-footer">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <p class="m-0  py-4 th-mont-regular" >www.glacialadventures.net Himachal Pradesh Govt. Reg.No: DMA/TA(KGR)-1/2007-865.</p>
+        <div class="row py-4">
+          <div class="col-md-8 pb-3">
+            <p class="m-0 th-mont-regular" >www.glacialadventures.net Himachal Pradesh Govt. Reg.No: DMA/TA(KGR)-1/2007-865.</p>
           </div>
-          <div class="col-md-4 py-4 d-flex justify-content-end">
+          <div class="col-md-4 pb-3 d-flex justify-content-center">
             <i class="lab la-facebook-f" style="font-size: 22px;"></i>
               <span class="th-vl mx-3"></span>
             <i class="lab la-google-plus" style="font-size: 22px;"></i>
@@ -184,7 +196,7 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-8 px-0">
-            <p class="col-lg-12 th-10 th-grey th-mont-regular">Payments Powered By</p>
+            <p class="col-lg-12 th-10 th-grey th-mont-regular mb-0">Payments Powered By</p>
             <p class="col-lg-12">
               <img class="th-pay-img mr-2" src="visa.png">
               <img class="th-pay-img mr-2" src="maestro.png">
@@ -193,21 +205,21 @@
               <img class="th-pay-img mr-2" src="net.png">
             </p>
           </div>
-          <div class="col-lg-1 col-md-2 px-0">
-            <p class="col-lg-12 th-10 th-grey th-mont-regular">Secured By</p>
+          <div class="col-lg-2 col-md-2 col-6 px-0">
+            <p class="col-lg-12 th-10 th-grey th-mont-regular mb-0">Secured By</p>
             <p class="col-lg-12">
               <img class="th-pay-img mr-2" src="payu.png">
             </p>
           </div>
-          <div class="col-lg-1 col-md-2 px-0">
-            <p class="col-lg-12 th-10 th-grey th-mont-regular px-0">Recongnized By</p>
-            <p class="col-lg-12 text-center">
-              <img class="th-pay-img-2 mr-2" src="hp.png">
+          <div class="col-lg-2 col-md-2 col-6 px-0">
+            <p class="col-lg-12 th-10 th-grey th-mont-regular mb-0 pr-0">Recongnized By</p>
+            <p class="col-lg-12 ">
+              <img class="th-pay-img-2" src="hp.png">
             </p>
           </div>
-          <div class="col-lg-6 qwerty col-md-12 mt-5">
-            <p class="th-10 th-mont-regular align-text-bottom m-0">Images shown on this website are only indicative and may not reflect the actual conditions.</p>
-            <p class="th-10 th-mont-regular align-text-bottom"><i class="lar la-copyright"></i>
+          <div class="col-lg-4 col-md-12 my-auto">
+            <p class="th-10 th-mont-regular th-grey align-text-bottom m-0">Images shown on this website are only indicative and may not reflect the actual conditions.</p>
+            <p class="th-10 th-mont-regular th-grey align-text-bottom"><i class="lar la-copyright"></i>
             2020-2021 Glacial Adventures(INDIA) Pvt. Ltd.
             </p>
           </div>
@@ -252,6 +264,7 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+    <script src="bootstrap-4.3.1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
