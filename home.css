@@ -118,6 +118,7 @@
     .th-text-why {font-size: 10px;}
     .th-text-glacial {font-size: 13px;}
     .th-text-we {font-size: 8px;}
+    .th-offer-img{height: 280px;}
 }
 @media only screen and (min-width: 350px) {
     .th-header-text {font-size: 10px;}
@@ -125,6 +126,7 @@
     .th-text-why {font-size: 12px;}
     .th-text-glacial {font-size: 15.5px;}
     .th-text-we {font-size: 10px;}
+    .th-offer-img{height: 325px;}
 }
 @media only screen and (min-width: 600px) {
     .th-header-text {font-size: 17.2px;}
@@ -132,6 +134,7 @@
     .th-text-why {font-size: 14px;}
     .th-text-glacial {font-size: 18px;}
     .th-text-we {font-size: 14px;}
+    .th-offer-img{height: 500px;}
 }
 @media only screen and (min-width: 768px) {
     .th-header-text {font-size: 23.5px;}
@@ -139,6 +142,7 @@
     .th-text-why {font-size: 14px;}
     .th-text-glacial {font-size: 18px;}
     .th-text-we {font-size: 18px;}
+    .th-offer-img{height: 500px;}
 }
 @media only screen and (min-width: 992px) {
     .th-header-text {font-size: 30px;}
@@ -146,13 +150,15 @@
     .th-text-why {font-size: 20px;}
     .th-text-glacial {font-size: 26px;}
     .th-text-we {font-size: 24px;}
+    .th-offer-img{height: 500px;}
 } 
 @media only screen and (min-width: 1200px) {
-    .th-header-text {font-size: 34px;}
+    .th-header-text {font-size: 37.5px;}
     .th-header-text-2 {font-size: 48px;}
     .th-text-why {font-size: 24px;}
     .th-text-glacial {font-size: 30px;}
     .th-text-we {font-size: 27px;}
+    .th-offer-img{height: 500px;}
 }
 /* Image Section */
 .th-body-img{
@@ -162,7 +168,6 @@
     overflow: hidden;
 }
 .th-offer-img{
-    height: 300px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -214,7 +219,7 @@
     background-color: #dee7ef;
 }
 .th-vl{
-    border-left: 2px solid rgb(124, 128, 124);
+    border-left: 1px solid rgb(124, 128, 124);
     height: 24px;
 }
 .th-form-input{
@@ -235,4 +240,12 @@
 .th-timer{
     font-family: mont-bold;
     font-size: 28px;
+}
+
+.th-link{
+    color: black;
+    text-decoration: none;
+}
+.th-link:hover{
+    color: #f2612c;
 }
