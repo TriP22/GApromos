@@ -113,28 +113,28 @@
     font-size: 27px;
 }
 @media only screen and (max-width: 350px) {
-    .th-header-text {font-size: 8px;}
-    .th-header-text-2 {font-size: 12px;}
+    .th-header-text {font-size: 9px;}
+    .th-header-text-2 {font-size: 11.5px;}
     .th-text-why {font-size: 10px;}
-    .th-text-glacial {font-size: 12px;}
+    .th-text-glacial {font-size: 13px;}
     .th-text-we {font-size: 8px;}
 }
 @media only screen and (min-width: 350px) {
     .th-header-text {font-size: 10px;}
-    .th-header-text-2 {font-size: 12px;}
+    .th-header-text-2 {font-size: 12.8px;}
     .th-text-why {font-size: 12px;}
-    .th-text-glacial {font-size: 14px;}
+    .th-text-glacial {font-size: 15.5px;}
     .th-text-we {font-size: 10px;}
 }
 @media only screen and (min-width: 600px) {
-    .th-header-text {font-size: 16px;}
+    .th-header-text {font-size: 17.2px;}
     .th-header-text-2 {font-size: 22px;}
     .th-text-why {font-size: 14px;}
-    .th-text-glacial {font-size: 16px;}
+    .th-text-glacial {font-size: 18px;}
     .th-text-we {font-size: 14px;}
 }
 @media only screen and (min-width: 768px) {
-    .th-header-text {font-size: 22px;}
+    .th-header-text {font-size: 23.5px;}
     .th-header-text-2 {font-size: 30px;}
     .th-text-why {font-size: 14px;}
     .th-text-glacial {font-size: 18px;}
@@ -142,7 +142,7 @@
 }
 @media only screen and (min-width: 992px) {
     .th-header-text {font-size: 30px;}
-    .th-header-text-2 {font-size: 42px;}
+    .th-header-text-2 {font-size: 38.5px;}
     .th-text-why {font-size: 20px;}
     .th-text-glacial {font-size: 26px;}
     .th-text-we {font-size: 24px;}
@@ -162,7 +162,7 @@
     overflow: hidden;
 }
 .th-offer-img{
-    height: 50vh;
+    height: 300px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -218,8 +218,8 @@
     height: 24px;
 }
 .th-form-input{
+    height: 35px;
     font-family: mont-medium;
-    padding: 8px;
     color: black;
     font-size: 12px;
     border-radius: 3px;
