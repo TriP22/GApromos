@@ -62,12 +62,7 @@
 .th-grey{
     color: #828282;
 }
-.th-bl-dark{
-    color: #3b9cf2;
-}
-.th-bl-light{
-    color: #77bbd8;
-}
+
 /* Top Bar */
 .th-header{
     background-color: #f6f6f6
@@ -118,21 +113,36 @@
     background-position: center;
     overflow: hidden;
 }
-@media only screen and (max-width: 380px) {
+.th-icon-img{
+    height: 60px;
+}
+.th-bl-dark{
+    color: #3b9cf2;
+}
+.th-bl-light{
+    color: #77bbd8;
+}
+@media only screen and (max-width: 350px) {
     .th-header-text {font-size: 9px;}
     .th-header-text-2 {font-size: 11.5px;}
     .th-text-why {font-size: 10px;}
     .th-text-glacial {font-size: 13px;}
     .th-text-we {font-size: 8px;}
     .th-offer-img{height: 280px;}
+    .th-icon-img{height: 40px;}
+    .th-bl-dark{font-size: 8px;}
+    .th-bl-light{font-size: 8px;}
 }
-@media only screen and (min-width: 380px) {
+@media only screen and (min-width: 350px) {
     .th-header-text {font-size: 10px;}
     .th-header-text-2 {font-size: 12.8px;}
     .th-text-why {font-size: 12px;}
     .th-text-glacial {font-size: 15.5px;}
     .th-text-we {font-size: 10px;}
     .th-offer-img{height: 325px;}
+    .th-icon-img{height: 50px;}
+    .th-bl-dark{font-size: 10px;}
+    .th-bl-light{font-size: 8px;}
 }
 @media only screen and (min-width: 600px) {
     .th-header-text {font-size: 17.2px;}
@@ -141,6 +151,8 @@
     .th-text-glacial {font-size: 18px;}
     .th-text-we {font-size: 14px;}
     .th-offer-img{height: 500px;}
+    .th-bl-dark{font-size: 16px;}
+    .th-bl-light{font-size: 14px;}
 }
 @media only screen and (min-width: 768px) {
     .th-header-text {font-size: 23.5px;}
@@ -149,6 +161,8 @@
     .th-text-glacial {font-size: 18px;}
     .th-text-we {font-size: 18px;}
     .th-offer-img{height: 500px;}
+    .th-bl-dark{font-size: 11px;}
+    .th-bl-light{font-size: 10px;}
 }
 @media only screen and (min-width: 992px) {
     .th-header-text {font-size: 30px;}
@@ -157,6 +171,8 @@
     .th-text-glacial {font-size: 26px;}
     .th-text-we {font-size: 24px;}
     .th-offer-img{height: 500px;}
+    .th-bl-dark{font-size: 14px;}
+    .th-bl-light{font-size: 12px;}
 } 
 @media only screen and (min-width: 1200px) {
     .th-header-text {font-size: 37.5px;}
@@ -165,6 +181,8 @@
     .th-text-glacial {font-size: 30px;}
     .th-text-we {font-size: 27px;}
     .th-offer-img{height: 500px;}
+    .th-bl-dark{font-size: 16px;}
+    .th-bl-light{font-size: 14px;}
 }
 /* Image Section */
 .th-body-img{
