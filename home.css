@@ -266,6 +266,38 @@
 .th-form-input:focus{
     outline: none;
 }
+.th-form-input-2{
+    z-index: 100;
+    background-color: none !important;
+    height: 30px;
+    font-family: mont-medium;
+    color: black;
+    font-size: 12px;
+    border-radius: 3px;
+    border:none;
+}
+.th-form-input-2:placeholder{
+    color: black;
+}
+.th-form-input-2:focus{
+    outline: none;
+}
+.th-calender-box{
+    background-color: white;
+    height: 40px;
+    font-family: mont-medium;
+    color: black;
+    font-size: 12px;
+    border-radius: 3px;
+    border:solid 1px #cbcbcb;
+}
+.th-img-calendar{
+    z-index: 1000;
+    padding-left: 0px;
+    position: absolute;
+    right: 30px;
+    bottom: -10px;
+}
 /* timer */
 .th-timer{
     font-family: mont-bold;

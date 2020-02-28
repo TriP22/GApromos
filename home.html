@@ -52,7 +52,18 @@
                 <input class="col-md-12 th-form-input mb-3" type="text" placeholder="Full Name" required>
                 <input class="col-md-12 th-form-input mb-3" type="email" placeholder="Email Address" required>
                 <input class="col-md-12 th-form-input mb-3" type="text" title="A 10 digit number" pattern="^\d{10}$"  placeholder="Mobile Number" required>
-                <input class="col-md-12 th-form-input mb-3" id="datePicker" type="date" required>
+                <div class="col-12 px-0 th-calender-box mb-3">
+                  <div class="row h-100 my-auto">
+                    <div class="col-11 my-auto">
+                      <input class="col-12 th-form-input-2 my-auto" id="datePicker" type="date" required>
+                    </div>
+                    <div class="col-1 my-auto pl-0 justify-content-right">
+                      <a ><img class="th-img-calendar" src="img/calendar.png" alt=""></a>
+                      
+                    </div> 
+                  </div>
+                  
+                </div>
                 <input class="col-md-12 th-form-input mb-3" list="cities" name="city" placeholder="Your City" required>
                 <datalist id="cities">
                   <option value="Manali">
