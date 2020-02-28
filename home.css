@@ -267,6 +267,7 @@
     outline: none;
 }
 .th-form-input-2{
+    background-color: white;
     z-index: 100;
     background-color: none !important;
     height: 30px;
