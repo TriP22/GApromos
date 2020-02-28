@@ -113,9 +113,6 @@
     background-position: center;
     overflow: hidden;
 }
-.th-icon-img{
-    height: 60px;
-}
 .th-bl-dark{
     color: #3b9cf2;
 }
@@ -151,6 +148,7 @@
     .th-text-glacial {font-size: 18px;}
     .th-text-we {font-size: 14px;}
     .th-offer-img{height: 500px;}
+    .th-icon-img{height: 60px;}
     .th-bl-dark{font-size: 16px;}
     .th-bl-light{font-size: 14px;}
 }
@@ -161,6 +159,7 @@
     .th-text-glacial {font-size: 18px;}
     .th-text-we {font-size: 18px;}
     .th-offer-img{height: 500px;}
+    .th-icon-img{height: 60px;}
     .th-bl-dark{font-size: 11px;}
     .th-bl-light{font-size: 10px;}
 }
@@ -171,6 +170,7 @@
     .th-text-glacial {font-size: 26px;}
     .th-text-we {font-size: 24px;}
     .th-offer-img{height: 500px;}
+    .th-icon-img{height: 60px;}
     .th-bl-dark{font-size: 14px;}
     .th-bl-light{font-size: 12px;}
 } 
@@ -181,6 +181,7 @@
     .th-text-glacial {font-size: 30px;}
     .th-text-we {font-size: 27px;}
     .th-offer-img{height: 500px;}
+    .th-icon-img{height: 60px;}
     .th-bl-dark{font-size: 16px;}
     .th-bl-light{font-size: 14px;}
 }
