@@ -112,7 +112,13 @@
     font-family: mont-medium;
     font-size: 27px;
 }
-@media only screen and (max-width: 350px) {
+.th-offer-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+@media only screen and (max-width: 380px) {
     .th-header-text {font-size: 9px;}
     .th-header-text-2 {font-size: 11.5px;}
     .th-text-why {font-size: 10px;}
@@ -120,7 +126,7 @@
     .th-text-we {font-size: 8px;}
     .th-offer-img{height: 280px;}
 }
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 380px) {
     .th-header-text {font-size: 10px;}
     .th-header-text-2 {font-size: 12.8px;}
     .th-text-why {font-size: 12px;}
@@ -167,12 +173,7 @@
     background-position: center;
     overflow: hidden;
 }
-.th-offer-img{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-}
+
 /* card */
 .th-card{
     background-color: white;
