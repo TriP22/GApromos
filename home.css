@@ -114,10 +114,13 @@
     overflow: hidden;
 }
 .th-bl-dark{
-    color: #3b9cf2;
+    font-family: 'mont-black';
+    font-weight: bold;
+    color: #36a1f9;
 }
 .th-bl-light{
-    color: #77bbd8;
+    font-family: 'mont-regular';
+    color: #36a1f9;
 }
 @media only screen and (max-width: 350px) {
     .th-header-text {font-size: 9px;}
