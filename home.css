@@ -142,6 +142,9 @@
     .th-bl-dark{font-size: 8px;}
     .th-bl-light{font-size: 8px;}
     .th-text-footer{ font-size: 10px;}
+    .th-body-img{background-size: 290vw;}
+    .th-box-why{padding: 16px;}
+    .th-section-why{padding-top: 0px; padding-bottom: 0px;}
 }
 @media only screen and (min-width: 350px) {
     .th-header-text {font-size: 2.4vw;}
@@ -155,6 +158,9 @@
     .th-bl-dark{font-size: 9px;}
     .th-bl-light{font-size: 8px;}
     .th-text-footer{ font-size: 10px;}
+    .th-body-img{background-size: 280vw;}
+    .th-box-why{padding: 16px;}
+    .th-section-why{padding-top: 0px; padding-bottom: 0px;}
 }
 @media only screen and (min-width: 576px) {
     .th-header-text {font-size: 17.2px;}
@@ -168,6 +174,9 @@
     .th-bl-dark{font-size: 12px;}
     .th-bl-light{font-size: 12px;}
     .th-text-footer{ font-size: 11px;}
+    .th-body-img{background-size: 220vw;}
+    .th-box-why{padding: 16px;}
+    .th-section-why{padding-top: 0px; padding-bottom: 16px;}
 }
 @media only screen and (min-width: 768px) {
     .th-header-text {font-size: 23.5px;}
@@ -181,6 +190,9 @@
     .th-bl-dark{font-size: 10px;}
     .th-bl-light{font-size: 10px;}
     .th-text-footer{ font-size: 12px;}
+    .th-body-img{background-size: cover;}
+    .th-box-why{padding: 24px;}
+    .th-section-why{padding-top: 16px; padding-bottom: 16px;}
 }
 @media only screen and (min-width: 992px) {
     .th-header-text {font-size: 30px;}
@@ -210,10 +222,10 @@
 }
 /* Image Section */
 .th-body-img{
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     overflow: hidden;
+    background-color: #f5f6f6;
 }
 
 /* poster */
