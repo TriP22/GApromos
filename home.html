@@ -287,7 +287,7 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script>
+    <!-- <script>
       $(document).ready(function() {
     var date = new Date();
 
@@ -301,7 +301,7 @@
     var today = year + "-" + month + "-" + day;       
     $("#datePicker").attr("value", today);
 });
-    </script>
+    </script> -->
     <script>
       // Set the date we're counting down to
       var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
@@ -321,6 +321,15 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
           
+        function prependZero(number) { 
+          if (number < 10) 
+            return "0" + number; 
+          else 
+            return number; 
+        }
+        hours = prependZero(hours);
+        minutes = prependZero(minutes);
+        seconds = prependZero(seconds);
         // Output the result in an element with id="demo"
         document.getElementById("hours").innerHTML = hours;
         document.getElementById("minutes").innerHTML = minutes;
@@ -328,10 +337,10 @@
 
           
         // If the count down is over, write some text 
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("demo").innerHTML = "EXPIRED";
-        }
+        // if (distance < 0) {
+        //   clearInterval(x);
+        //   document.getElementById("demo").innerHTML = "OFFER EXPIRED";
+        // }
       }, 1000);
       </script>
   
